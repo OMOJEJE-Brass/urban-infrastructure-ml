@@ -3,11 +3,11 @@
 This project applies machine learning techniques to predict infrastructure failure in urban environments.
 
 ## Objective
-To classify whether a city block will experience infrastructure failure based on environmental and structural features.
+To classify whether a city block will experience infrastructure failure using environmental and structural features.
 
 ## Methodology
 - Data cleaning and preprocessing
-- Exploratory data analysis (EDA)
+- Exploratory Data Analysis (EDA)
 - Train/Validation/Test split (60/20/20)
 - Feature scaling and encoding
 - Models used:
@@ -16,15 +16,12 @@ To classify whether a city block will experience infrastructure failure based on
   - Neural Network
 
 ## Evaluation
-ROC-AUC was used as the primary evaluation metric due to moderate class imbalance (63% no-failure / 37% failure).
+ROC-AUC was used due to moderate class imbalance (63% no-failure / 37% failure), as it better reflects the model’s ability to distinguish between classes than accuracy.
 
 ## Key Insight
-Environmental stress (e.g. moisture, debris) and infrastructure age are the strongest predictors of failure risk.
+Environmental stress factors (e.g. moisture and debris) and infrastructure age are the strongest predictors of failure risk.
 
 ## Files
-- `Urban_Poster.pdf` 
-- `Urban_Notebook.ipynb` 
+- `Urban_Poster.pdf` – Final poster 
+- `Urban_Notebook.ipynb` – Full modelling process
 
-## Files
-- Urban_notebook.ipynb
-- Urban_Poster.pdf
