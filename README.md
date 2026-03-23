@@ -2,13 +2,11 @@
 
 This project develops machine learning models to predict infrastructure failure.
 
-## Models Used
-- Logistic Regression
-- Decision Tree
-- Neural Network
-
-## Evaluation Metric
-ROC-AUC was used due to moderate class imbalance.
+## Methodology
+- Data cleaning and preprocessing
+- Train/validation/test split (60/20/20)
+- Models: Logistic Regression, Decision Tree, Neural Network
+- Evaluation using ROC-AUC due to moderate class imbalance
 
 ## Files
 - Urban_notebook.ipynb
